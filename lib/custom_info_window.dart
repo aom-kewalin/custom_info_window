@@ -45,7 +45,7 @@ class CustomInfoWindow extends StatefulWidget {
   const CustomInfoWindow({
     required this.controller,
     this.offset = 50,
-    this.height = 50,
+    this.height = 20,
     this.width = 100,
   })  : assert(controller != null),
         assert(offset != null),
