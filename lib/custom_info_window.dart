@@ -46,7 +46,7 @@ class CustomInfoWindow extends StatefulWidget {
     required this.controller,
     this.offset = 50,
     this.height = 20,
-    this.width = 100,
+    this.width = 10,
   })  : assert(controller != null),
         assert(offset != null),
         assert(offset >= 0),
