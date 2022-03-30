@@ -133,8 +133,8 @@ class _CustomInfoWindowState extends State<CustomInfoWindow> {
             : true,
         child: Container(
           child: _child,
-          height: widget.height,
-          width: widget.width,
+          // height: widget.height,
+          // width: widget.width,
         ),
       ),
     );
